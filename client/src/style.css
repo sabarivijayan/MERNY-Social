@@ -1,0 +1,272 @@
+
+
+.text-box {
+  border: 1px solid darkgray !important;
+}
+
+.form_container {
+  width: 40%;
+  border: 1px solid #ccc;
+}
+
+.signup_form_container {
+  width: 35%;
+  border: 1px solid #ccc;
+  height: 80%;
+  margin: auto;
+}
+
+label {
+  font-size: 15px;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .form_container {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .form_container {
+    width: 65%;
+  }
+}
+
+.nav-wrapper img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  filter: invert(100%);
+  color: white;
+}
+
+.input-group input[type="search"] {
+  flex: 1;
+  border: none;
+  border-radius: 50px;
+  padding: 2px;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+}
+
+.input-group-append .btn {
+  border-radius: 20px;
+}
+
+.nav-wrapper ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-wrapper ul li {
+  margin-right: 10px;
+}
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid blue !important;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item {
+  width: 30%;
+}
+
+.home-card {
+  max-width: 800px;
+  height: max-content;
+  margin: 20px;
+}
+
+.material-icons {
+  margin-right: 10px;
+}
+.liked{
+  color:red ;
+}
+
+.signup.template {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.btn-search {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  color: #333;
+  border-radius: 20px;
+  padding: 6px 12px;
+  outline: none;
+  transition: border-color 0.2s ease-in-out;
+  width: 45%;
+  margin: 15px;
+  border:2px solid grey
+}
+
+.btn-search:hover {
+  border-color: #666;
+}
+
+/* userlinks */
+
+.user-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 10; */
+}
+
+.user-links button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #fff;
+  color:black;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .user-links {
+    flex-direction: row;
+    gap: 0;
+    justify-content: space-between;
+    position: static;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0;
+  }
+}
+
+.user-profile {
+  width: 40px;
+  height: 80px;
+  margin-right: 10px;
+  margin-top: 20px;
+  
+}
+
+
+
+
+/* css for createpost modal */
+
+.modal {
+  background-color: transparent;
+}
+
+.modal-dialog {
+  margin: 100px auto;
+  max-width: 600px;
+}
+
+.modal-content {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+.modal-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btn-submit {
+  width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 20px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #0056b3;
+}
+
+.form-input {
+  margin-bottom: 20px;
+}
+
+.form-input label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.form-input input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-input input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.form-input input[type="file"] {
+  display: none;
+}
+
+.file-input-label {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.file-input-label:hover {
+  background-color: #0056b3;
+}
+/* Edit profile Button  */
+.my-button {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  width:250px;
+  border-radius: 8px; /* Rounded corners */
+  padding: 12px 24px; /* Padding around the button text */
+  font-size: 18px; /* Font size of the button text */
+  /* Add any additional styles as needed */
+}
